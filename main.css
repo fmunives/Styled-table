@@ -1,0 +1,49 @@
+html,
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.table th,
+.table td {
+  padding: 20px 50px 20px 0;
+  font-size: 20px;
+}
+
+.table td {
+  border-bottom: 1px solid grey;
+}
+
+.table tr:last-child td {
+  border-bottom: 0;
+}
+
+.table input[type="checkbox"] {
+  transform: scale(1.3);
+}
