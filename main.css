@@ -21,6 +21,27 @@ body {
   text-align: center;
 }
 
+.input-check {
+  display: none;
+}
+
+.input-check:checked + .unchecked {
+  display: none;
+}
+
+.checked {
+  display: none;
+}
+
+.input-check:checked ~ .checked {
+  display: inline;
+}
+
+.image-check {
+  width: 18px;
+  height: 18px;
+}
+
 .table {
   width: 100%;
   border-collapse: collapse;
